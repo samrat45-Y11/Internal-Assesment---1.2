@@ -3,17 +3,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
+
 /* Styling for all the elements in body */
 
 body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
+
     background-color: #f0f0f0;
     color: #333;
-   
+
 }
 
 
@@ -24,7 +23,7 @@ a {
 
 /* Header */
 header {
-    
+
     align-items: center;
     background-color: #004080;
     color: white;
@@ -33,14 +32,14 @@ header {
     position: sticky;
     top: 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-   
+
 
 }
 
 header h1 {
     font-size: 35px;
     margin: 0 0 20px 0;
-    
+
 
 }
 
@@ -61,7 +60,7 @@ nav ul li a {
     text-decoration: none;
     padding: 5px 10px;
     border-radius: 4px;
-    transition: background-color 0.3s;
+    transition: background-color 0.4s;
 }
 
 
@@ -81,7 +80,7 @@ nav ul li a:hover {
     text-align: center;
     border-bottom: 5px solid #004080;
     font-weight: bold;
-    }
+}
 
 .hero h2 {
     font-size: 36px;
@@ -91,7 +90,7 @@ nav ul li a:hover {
 .hero p {
     font-size: 18px;
     margin: 0;
-    
+
 }
 
 /* Font Styling */
@@ -99,10 +98,10 @@ nav ul li a:hover {
 // <weight>: Use a value from 100 to 900 */
 
 .montserrat {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 200;
-  font-style: normal;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
 }
 
 /* Main Content */
@@ -152,14 +151,24 @@ main section p {
     font-weight: normal;
 }
 
-* Footer */
-footer {
+* Footer */ footer {
     background-color: #004080;
     color: white;
     text-align: center;
     padding: 15px 0;
     margin-top: 20px;
 }
+
+/* Footer */
+footer {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+
+}
+
 
 /* Contact Form */
 form {
@@ -169,7 +178,7 @@ form {
     background-color: #f9f9f9;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    
+
 }
 
 form label {
@@ -179,7 +188,8 @@ form label {
     margin-bottom: 5px;
 }
 
-form input, form textarea {
+form input,
+form textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
@@ -202,10 +212,3 @@ form button {
 form button:hover {
     background-color: #e04545;
 }
-
-
-
-
-
-
-
