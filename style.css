@@ -31,9 +31,9 @@ header {
     color: white;
     padding: 10px 0;                       /* made some spacing and set the color for the header tag*/
     text-align: center;
-    position: sticky;
+    position: sticky;  /*position sticky makes the following section to stick to the respective border of the screen till its size of the conatiner*/
     top: 0;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* adds up a light black box shadow*/
 
 
 }
@@ -45,6 +45,15 @@ header h1 {
 
 }
 
+header h1 a {
+   
+    transition: color 0.4s ease;
+}
+
+header h1 a:hover{
+    color: #f05656;  /* changes the color of the h1 upon hovering*/
+}
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -53,7 +62,7 @@ nav ul {
 }
 
 nav ul li {
-    display: inline-block;
+    display: inline-block;/* makes the elements block in nature also makes them inline*/
     margin: 0 15px;
 }
 
@@ -102,7 +111,7 @@ nav ul li a:hover {
 .montserrat {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 200;
+    font-weight: 200;      /*the montserrat google fonts*/
     font-style: normal;
 }
 
@@ -153,13 +162,7 @@ main section p {
     font-weight: normal;
 }
 
-* Footer */ footer {
-    background-color: #004080;
-    color: white;
-    text-align: center;
-    padding: 15px 0;
-    margin-top: 20px;
-}
+
 
 /* Footer */
 footer {
@@ -172,7 +175,7 @@ footer {
 }
 
 
-/* Contact Form */
+/* Contact Form-- styling for the forms section in the conatct page */
 form {
     max-width: 600px;
     margin: 0 auto;
@@ -189,9 +192,9 @@ form label {
     display: block;
     margin-bottom: 5px;
 }
+ /*targets the for input tag and the textarea tag*/
 
-form input,
-form textarea {
+form input, form textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
@@ -217,14 +220,15 @@ form button:hover {
 
 /* Workouts Page Specific Styles */
 
-/* Overall container for the workouts page */
+
 .workouts-page .content {
     max-width: 900px; /* Limit width for readability */
     margin: 0 auto; /* Center content */
     padding: 20px; /* Padding around content */
+   
 }
 
-/* Header styling specific to workouts page */
+
 .workouts-page .content h1 {
    
     color: #2c3e50; 
@@ -234,7 +238,7 @@ form button:hover {
 
 }
 
-/* Section styling for workouts page */
+
 .workouts-page .section {
     margin-bottom: 20px; /* Space between sections */
     padding: 15px;
@@ -243,21 +247,21 @@ form button:hover {
     border-radius: 5px; /* Rounded corners */
 }
 
-/* Section headers */
+
 .workouts-page .section h2 {
    
     color: #e74c3c; /* Emphasize with a color already used in other elements */
     margin-bottom: 15px; /* Space below header */
 }
 
-/* Paragraph styling within sections */
+
 .workouts-page .section p {
   
     color: #555; /* Match text color with the site's overall color scheme */
     line-height: 1.6; /* Improved readability */
 }
 
-/* List styling within sections */
+
 .workouts-page .section ul {
     list-style-type: disc; /* Disc bullets */
     padding-left: 20px; /* Indentation for lists */
@@ -268,7 +272,7 @@ form button:hover {
     color: #333; 
 }
 
-/* Links within the sections */
+
 .workouts-page .section a {
     color: #3498db;
     text-decoration: none;
