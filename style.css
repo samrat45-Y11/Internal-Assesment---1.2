@@ -2,7 +2,8 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;     /* Applies these rules to all the elements but can be overwritten if the tags are selected individually.*/
+    box-sizing: border-box;
+    /* Applies these rules to all the elements but can be overwritten if the tags are selected individually.*/
     font-weight: normal;
     list-style: decimal;
 
@@ -13,14 +14,16 @@
 body {
 
     background-color: #f0f0f0;
-    color: #333;                   /* Applies these rules to all the elements in the body but can be overwritten if the tags are selected individually.*/
+    color: #333;
+    /* Applies these rules to all the elements in the body but can be overwritten if the tags are selected individually.*/
 
 }
 
 
 a {
     text-decoration: none;
-    color: #FFFFFF;                      /*General rule set for the 'a' tag.*/
+    color: #FFFFFF;
+    /*General rule set for the 'a' tag.*/
 }
 
 /* Header */
@@ -29,29 +32,34 @@ header {
     align-items: center;
     background-color: #004080;
     color: white;
-    padding: 10px 0;                       /* made some spacing and set the color for the header tag*/
+    padding: 10px 0;
+    /* made some spacing and set the color for the header tag*/
     text-align: center;
-    position: sticky;  /*position sticky makes the following section to stick to the respective border of the screen till its size of the conatiner*/
+    position: sticky;
+    /*position sticky makes the following section to stick to the respective border of the screen till its size of the conatiner*/
     top: 0;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* adds up a light black box shadow*/
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    /* adds up a light black box shadow*/
 
 
 }
 
 header h1 {
-    font-size: 35px;              /* set the font size and margin bottom for the h1 in the header tag*/
+    font-size: 35px;
+    /* set the font size and margin bottom for the h1 in the header tag*/
     margin: 0 0 20px 0;
 
 
 }
 
 header h1 a {
-   
+
     transition: color 0.4s ease;
 }
 
-header h1 a:hover{
-    color: #f05656;  /* changes the color of the h1 upon hovering*/
+header h1 a:hover {
+    color: #f05656;
+    /* changes the color of the h1 upon hovering*/
 }
 
 nav ul {
@@ -62,7 +70,8 @@ nav ul {
 }
 
 nav ul li {
-    display: inline-block;/* makes the elements block in nature also makes them inline*/
+    display: inline-block;
+    /* makes the elements block in nature also makes them inline*/
     margin: 0 15px;
 }
 
@@ -72,6 +81,7 @@ nav ul li a {
     padding: 5px 10px;
     border-radius: 4px;
     transition: background-color 0.4s;
+
 }
 
 
@@ -111,7 +121,8 @@ nav ul li a:hover {
 .montserrat {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 200;      /*the montserrat google fonts*/
+    font-weight: 200;
+    /*the montserrat google fonts*/
     font-style: normal;
 }
 
@@ -192,9 +203,11 @@ form label {
     display: block;
     margin-bottom: 5px;
 }
- /*targets the for input tag and the textarea tag*/
 
-form input, form textarea {
+/*targets the for input tag and the textarea tag*/
+
+form input,
+form textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
@@ -222,64 +235,81 @@ form button:hover {
 
 
 .workouts-page .content {
-    max-width: 900px; /* Limit width for readability */
-    margin: 0 auto; /* Center content */
-    padding: 20px; /* Padding around content */
-   
+    max-width: 900px;
+    /* Limit width for readability */
+    margin: 0 auto;
+    /* Center content */
+    padding: 20px;
+    /* Padding around content */
+
 }
 
 
 .workouts-page .content h1 {
-   
-    color: #2c3e50; 
-    text-align: center; /* Center the title */
-    margin-bottom: 10px; /* Space below title */
-    
+
+    color: #2c3e50;
+    text-align: center;
+    /* Center the title */
+    margin-bottom: 10px;
+    /* Space below title */
+
 
 }
 
 
 .workouts-page .section {
-    margin-bottom: 20px; /* Space between sections */
+    margin-bottom: 20px;
+    /* Space between sections */
     padding: 15px;
-    background-color: #f9f9f9; /* Light grey background to match the site's aesthetic */
-    border: 1px solid #ddd; /* Subtle border around sections */
-    border-radius: 5px; /* Rounded corners */
+    background-color: #f9f9f9;
+    /* Light grey background to match the site's aesthetic */
+    border: 1px solid #ddd;
+    /* Subtle border around sections */
+    border-radius: 5px;
+    /* Rounded corners */
 }
 
 
 .workouts-page .section h2 {
-   
-    color: #e74c3c; /* Emphasize with a color already used in other elements */
-    margin-bottom: 15px; /* Space below header */
+
+    color: #e74c3c;
+    /* Emphasize with a color already used in other elements */
+    margin-bottom: 15px;
+    /* Space below header */
 }
 
 
 .workouts-page .section p {
-  
-    color: #555; /* Match text color with the site's overall color scheme */
-    line-height: 1.6; /* Improved readability */
+
+    color: #555;
+    /* Match text color with the site's overall color scheme */
+    line-height: 1.6;
+    /* Improved readability */
 }
 
 
 .workouts-page .section ul {
-    list-style-type: disc; /* Disc bullets */
-    padding-left: 20px; /* Indentation for lists */
+    list-style-type: disc;
+    /* Disc bullets */
+    padding-left: 20px;
+    /* Indentation for lists */
 }
 
 .workouts-page .section ul li {
-    margin-bottom: 8px; /* Space between list items */
-    color: #333; 
+    margin-bottom: 8px;
+    /* Space between list items */
+    color: #333;
 }
 
 
 .workouts-page .section a {
     color: #3498db;
     text-decoration: none;
-    transition: color 0.3s ease; /* Smooth color transition on hover */
+    transition: color 0.3s ease;
+    /* Smooth color transition on hover */
 }
 
 .workouts-page .section a:hover {
-    color: #e74c3c; /* Red on hover to match the section header */
+    color: #e74c3c;
+    /* Red on hover to match the section header */
 }
-
